@@ -54,7 +54,8 @@ See [here](https://github.com/gablab/murfi2/tree/master/docker) for details.
 
 ## build the container
 
-`cd ~rt/murfi2/docker` \
+
+`cd ~rt/murfi2/docker` 
 
 `sudo docker build --tag murfi2 --file source.Dockerfile ..`
 
@@ -62,6 +63,10 @@ this should yield something along this lines (don't copy):
 
 `Successfully built 83ded15c4a1b`
 `Successfully tagged murfi2:latest`
+
+Note: sometimes the docker deamon has to be started manually before buildding the container:
+
+`systemctl start docker`
 
 ## get Singularity
 
