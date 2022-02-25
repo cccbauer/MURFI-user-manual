@@ -8,4 +8,4 @@ With this script you will be able to set up an experiment where participants wil
 
 ### Psychopy Setup
 
-download the lates psychopy [https://www.psychopy.org/download.html]
+download the lates [Psychopy](https://www.psychopy.org/download.html)
