@@ -9,3 +9,9 @@ With this script you will be able to set up an experiment where participants wil
 ### Psychopy Setup
 
 download the lates [Psychopy](https://www.psychopy.org/download.html)
+
+### get the rt-PyProject
+
+download or clone this folder to get the scripts
+
+
