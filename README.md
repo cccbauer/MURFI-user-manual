@@ -8,3 +8,7 @@ rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are u
 
 ## Installation guides
 
+[MURFI setup]
+
+[FSL setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/fsl-setup.md)
+
