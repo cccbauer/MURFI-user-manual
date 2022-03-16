@@ -1,4 +1,4 @@
-# rt-PyProject
+# rt-PsychoPy integration
 
 This is the example real-time Psychopy Project (rt-PyProject) to set up a neurofeedback experiment
 
