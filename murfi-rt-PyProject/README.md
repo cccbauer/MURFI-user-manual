@@ -1,1 +1,1 @@
-##Eexample Network-Based Neurofeedback run
+Example Network-Based Neurofeedback run
