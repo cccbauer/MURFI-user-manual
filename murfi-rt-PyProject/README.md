@@ -106,6 +106,8 @@ make sure you are Wired Connected to rt-fMR
 
 This will pop up MURFI interface ready to receive images from the Scanner
 
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol.png?raw=true)
+
 
 
 
