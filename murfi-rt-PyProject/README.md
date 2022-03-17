@@ -195,7 +195,7 @@ Press "t" on the stimmulus computer
 
 Hit enter after this line on the second termial:
 
-``/home/rt/singularity-images/murfi2.sif ./servedata.sh 120vol`
+`/home/rt/singularity-images/murfi2.sif ./servedata.sh 120vol`
 
 This will start the feedback scann and you can see how the data is integrated and the feedback display on  the stimulus computer is being updated:
 
