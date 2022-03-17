@@ -37,9 +37,9 @@ Ready, no we are able to setu up all necesary files to sart a test run:
 
 This will show this message:
 
-``` ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-created all directories for sub-test
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++```
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
+`created all directories for sub-test`
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 This means that all directories for "sub-test" were succesfully created
 
