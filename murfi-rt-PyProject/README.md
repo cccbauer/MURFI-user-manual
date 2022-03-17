@@ -146,7 +146,7 @@ failed to connect
 
 And on the MURFI interface you will see how the images are being received:
 
-![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol_received.png?raw=true)
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol_recived.png?raw=true)
 
 
 
