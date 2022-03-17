@@ -7,3 +7,13 @@ rt-Psychopy Project to set up a neurofeedback experiment
 
 please make sure you have installed and tested all these before continuing:
 
+[MURFI setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/murfi-setup.md)
+
+[FSL setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/fsl-setup.md)
+
+[rt-PsychoPy setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/rt-PsychoPy/README.md)
+
+## Initialization
+
+On your Ubuntu laptop where MURFI is installed (preferably with rt@rt as the rootname) folow these steps:
+
