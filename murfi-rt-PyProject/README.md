@@ -100,13 +100,57 @@ make sure you are Wired Connected to rt-fMR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-##3 If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our 2vol for registration of ROI masks:
+##3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our 2vol for registration of ROI masks:
 
 `source feedback.sh sub-test 2vol`
 
-This will pop up MURFI interface ready to receive images from the Scanner
+This will pop up MURFI interface ready to receive images from the Scanner like this:
+
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol.png?raw=true)
+
+
+##4) Now you are ready to recieve images from the Scanner/Simmulator
+
+If you are doing a real scann, the 2vol sequence on the Scanner can be started
+
+If you are doing a simmulation:
+
+open a new terminal:
+
+`cd /home/rt/murfi-rt-PyProject/scripts`
+
+Start the simmulator MURFI singularity image with the flag to just send 2 images:
+
+`/home/rt/singularity-images/murfi2.sif ./servedata.sh 2vol MURFI
+
+1 using niiStem=img/img
+2 using series=1
+3 using numImgs=2
+4 using firstImg=1
+5 using numSlices=68
+6 using tr=1200000
+7 using port=15000
+8 using host=localhost
+loading nifti img/img-00001-00001.nii
+made connection, loading image
+sending img  1
+sending info of size 616
+sending img of size 2654208
+loading nifti img/img-00001-00002.nii
+made connection, loading image
+sending img  2
+sending info of size 616
+sending img of size 2654208
+failed to connect
+
+And on the MURFI interface you will see how the images are being received:
+
+
+
+
+
+
 
 
 
