@@ -153,9 +153,7 @@ And on the MURFI interface you will see how the images are being received:`
 CONTROL-C to quit this MURFI interface if it not automatically quit.
 
 
-##5) Now you are ready to recieve images from the Scanner/Simmulator
-
-Now we are ready to register our MNI ROIs to the subjects space of todays scan
+##5) Now we are ready to register our MNI ROIs to the subjects space of todays scan
 
 `source feedback.sh sub-test register`
 
@@ -167,6 +165,45 @@ This will start the registration of the masks found in
 and will pop up fsleyes to check the registration
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/registration.png?raw=true)
+
+##6) Now you are ready to start the first Network Based neurofeedback with images from the Scanner/Simmulator
+
+The order of this next step is important:
+
+First: Start the Murfi interface to receive the feedback run:
+
+`source feedback.sh sub-test dmn run-01`
+
+This will pop-up the interface to receive images similar to the 2vol one seen above with the difference that the lenth is 120 seconds and the regression to compute the beta values on murfi is continuous over the whole run.
+
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/rtdmn.png?raw=true)
+
+On the stimulus computer:
+
+Start PsychoPy
+Run `rt-network_feedback.py` script
+
+Read the instructions and go all the way to "waiting for scanner trigger"
+
+if running a real subject, now the scan can begin and the triggers will start the experiment
+
+If running a simulation you would neet to:
+
+Press "t" at the same time than starting the simmulator on the second terminal:
+
+Press "t" on the stimmulus computer
+
+Hit enter after this line on the second termial:
+
+``/home/rt/singularity-images/murfi2.sif ./servedata.sh 120vol`
+
+This will start the feedback scann and you can see how the data is integrated and the feedback display on  the stimulus computer is being updated:
+
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/rtdmn_run.png?raw=true)
+
+
+
+
 
 
 
