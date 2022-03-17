@@ -16,4 +16,4 @@ download or clone this folder to get the scripts
 
 ### Running a real-time Neurofeedback Simulation
 
-[example Network-Based neurofeedback run](github.com/cccbauer/MURFI-user-manual/murfi-rt-PyProject/README.md)
+[Example Network-Based neurofeedback run](github.com/cccbauer/MURFI-user-manual/murfi-rt-PyProject/README.md)
