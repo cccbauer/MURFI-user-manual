@@ -15,3 +15,5 @@ download the lates [Psychopy](https://www.psychopy.org/download.html)
 download or clone this folder to get the scripts
 
 ### Running a real-time Neurofeedback Simulation
+
+[example Network-Based neurofeedback run](github.com/cccbauer/MURFI-user-manual/murfi-rt-PyProject/README.md)
