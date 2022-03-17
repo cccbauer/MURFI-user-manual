@@ -123,27 +123,28 @@ open a new terminal:
 
 Start the simmulator MURFI singularity image with the flag to just send 2 images:
 
-`/home/rt/singularity-images/murfi2.sif ./servedata.sh 2vol MURFI
+`/home/rt/singularity-images/murfi2.sif ./servedata.sh 2vol`
 
-`1 using niiStem=img/img
-2 using series=1
-3 using numImgs=2
-4 using firstImg=1
-5 using numSlices=68
-6 using tr=1200000
-7 using port=15000
-8 using host=localhost
-loading nifti img/img-00001-00001.nii
-made connection, loading image
-sending img  1
-sending info of size 616
-sending img of size 2654208
-loading nifti img/img-00001-00002.nii
-made connection, loading image
-sending img  2
-sending info of size 616
-sending img of size 2654208
-failed to connect
+`1 using niiStem=img/img`
+
+`2 using series=1`
+`3 using numImgs=2`
+`4 using firstImg=1`
+`5 using numSlices=68`
+`6 using tr=1200000`
+`7 using port=15000`
+`8 using host=localhost`
+`loading nifti img/img-00001-00001.nii`
+`made connection, loading image`
+`sending img  1`
+`sending info of size 616`
+`sending img of size 2654208`
+`loading nifti img/img-00001-00002.nii`
+`made connection, loading image`
+`sending img  2`
+`sending info of size 616`
+`sending img of size 2654208`
+`failed to connect`
 
 And on the MURFI interface you will see how the images are being received:`
 
