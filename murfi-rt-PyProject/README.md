@@ -62,6 +62,54 @@ From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MUR
 
 `source feedback.sh sub-test setup`
 
+this will show a message like:
+
+hello
+setup
+subject ID:sub-test
+/home/rt/murfi-rt-PyProject/subjects/
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+checking the presence of scanner and stim computer
+PING 192.168.2.1 (192.168.2.1) 56(84) bytes of data.
+
+64 bytes from(192.168.2.1): icmp_seq=1 ttl=116 time=8.31 ms
+64 bytes from(192.168.2.1): icmp_seq=2 ttl=116 time=10.4 ms
+64 bytes from(192.168.2.1): icmp_seq=3 ttl=116 time=10.9 ms
+
+--- 192.168.2.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2028ms
+
+PING 192.168.2.6 (192.168.2.6) 56(84) bytes of data.
+
+
+64 bytes from(192.168.2.6): icmp_seq=1 ttl=116 time=8.31 ms
+64 bytes from(192.168.2.6): icmp_seq=2 ttl=116 time=10.4 ms
+64 bytes from(192.168.2.1): icmp_seq=3 ttl=116 time=10.9 ms
+--- 192.168.2.6 ping statistics ---
+
+3 packets transmitted, 3 received, 0% packet loss, time 2028ms
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This sets up all connections to Scanner (192.168.2.1) and Stimmulus computer (192.168.2.6)
+
+If there is any issue with the ethernet connections you will see a note stating you need to revise the connections:
+
+
+make sure Wi-Fi is off
+make sure you are Wired Connected to rt-fMR
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+##3 If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our 2vol for registration of ROI masks:
+
+`source feedback.sh sub-test 2vol`
+
+This will pop up MURFI interface ready to receive images from the Scanner
+
+
+
+
+
 
 
 
