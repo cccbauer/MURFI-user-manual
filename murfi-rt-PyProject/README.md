@@ -19,5 +19,7 @@ On your Ubuntu laptop where MURFI is installed (preferably with rt@rt as the roo
 
 `cd /home/rt/`
 
-``
+install this repository either by downloading and unzipping it or through git:
+
+`git clone https://github.com/cccbauer/MURFI-user-manual.git`
 
