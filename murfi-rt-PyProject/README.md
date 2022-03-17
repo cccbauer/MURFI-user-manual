@@ -37,9 +37,9 @@ Ready, no we are able to setu up all necesary files to sart a test run:
 
 This will show this message:
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-created all directories for sub-test
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
+`created all directories for sub-test`
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 This means that all directories for "sub-test" were succesfully created
 
@@ -64,7 +64,7 @@ From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MUR
 
 this will show a message like:
 
-hello
+ `hello
 setup
 subject ID:sub-test
 /home/rt/murfi-rt-PyProject/subjects/
@@ -88,16 +88,16 @@ PING 192.168.2.6 (192.168.2.6) 56(84) bytes of data.
 --- 192.168.2.6 ping statistics ---
 
 3 packets transmitted, 3 received, 0% packet loss, time 2028ms
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 This sets up all connections to Scanner (192.168.2.1) and Stimmulus computer (192.168.2.6)
 
 If there is any issue with the ethernet connections you will see a note stating you need to revise the connections:
 
 
-make sure Wi-Fi is off
+`make sure Wi-Fi is off
 make sure you are Wired Connected to rt-fMR
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 
 ##3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our 2vol for registration of ROI masks:
@@ -124,7 +124,7 @@ Start the simmulator MURFI singularity image with the flag to just send 2 images
 
 `/home/rt/singularity-images/murfi2.sif ./servedata.sh 2vol MURFI
 
-1 using niiStem=img/img
+`1 using niiStem=img/img
 2 using series=1
 3 using numImgs=2
 4 using firstImg=1
@@ -144,7 +144,7 @@ sending info of size 616
 sending img of size 2654208
 failed to connect
 
-And on the MURFI interface you will see how the images are being received:
+And on the MURFI interface you will see how the images are being received:`
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol_recived.png?raw=true)
 
