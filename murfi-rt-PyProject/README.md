@@ -150,6 +150,31 @@ And on the MURFI interface you will see how the images are being received:`
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol_recived.png?raw=true)
 
+CONTROL-C to quit this MURFI interface if it not automatically quit.
+
+
+##5) Now you are ready to recieve images from the Scanner/Simmulator
+
+Now we are ready to register our MNI ROIs to the subjects space of todays scan
+
+`source feedback.sh sub-test register`
+
+This will start the registration of the masks found in 
+
+`/home/rt/murfi-rt-PyProject/subjects/sub-test/mask/mni`
+`cen_mni.nii.gz  dmn_mni.nii.gz  smc_mni.nii.gz  stg_mni.nii.gz`
+
+and will pop up fsleyes to check the registration
+
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/registration.png?raw=true)
+
+
+
+
+
+
+
+
 
 
 
