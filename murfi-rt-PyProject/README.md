@@ -40,6 +40,7 @@ This will show this message:
 `++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 `created all directories for sub-test`
+
 `++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 This means that all directories for "sub-test" were succesfully created
