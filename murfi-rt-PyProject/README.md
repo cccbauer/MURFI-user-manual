@@ -53,10 +53,11 @@ and in the created "sub-test" folder you will find :
 
 `fsfs  img  log  mask  rest  ses-localizer  ses-real  ses-sham  xfm  xml`
 
-under `xml` you will find the script that MUEFI will use to extract the neurofeedback information and send it to the rt-PsychoPy script.
+under `xml` you will find the script that MURFI will use to extract the neurofeedback information and send it to the rt-PsychoPy script.
 
-under `xfm` you will receive/find the `session_ref.nii` images that will be used to map the ROI masks form where feedback will be computed to the current session images and Fields of View (FOV)
-more info on this here
+under `xfm` you will receive/find the `session_ref.nii` images that will be used to register the ROI masks in MINI space to the current session images and Fields of View (FOV)
+
+more info on this [here]
 
 ### 2) Setup al needed connectins to the Scanner and Stimmulus computer:
 
@@ -94,7 +95,7 @@ this will show a message like:
 
 This sets up all connections to Scanner (192.168.2.1) and Stimmulus computer (192.168.2.6)
 
-If there is any issue with the ethernet connections you will see a note stating you need to revise the connections:
+If there is any issue with the network connections you will see a note stating you need to revise the connections:
 
 
 `make sure Wi-Fi is off
@@ -102,7 +103,7 @@ make sure you are Wired Connected to rt-fMR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 
-### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our 2vol for registration of ROI masks:
+### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our ** 2vol ** for registration of ROI masks:
 
 `source feedback.sh sub-test 2vol`
 
@@ -114,7 +115,7 @@ This will pop up MURFI interface ready to receive images from the Scanner like t
 
 ##4) Now you are ready to recieve images from the Scanner/Simmulator
 
-If you are doing a real scann, the 2vol sequence on the Scanner can be started
+If you are doing a real scann, the ** 2vol ** sequence on the Scanner can be started
 
 If you are doing a simmulation:
 
@@ -122,7 +123,7 @@ open a new terminal:
 
 `cd /home/rt/murfi-rt-PyProject/scripts`
 
-Start the simmulator MURFI singularity image with the flag to just send 2 images:
+Start the simmulator MURFI singularity image with the ** 2vol ** flag to just send 2 images:
 
 `/home/rt/singularity-images/murfi2.sif ./servedata.sh 2vol`
 
