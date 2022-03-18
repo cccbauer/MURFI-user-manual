@@ -19,7 +19,7 @@ On your Ubuntu laptop where MURFI is installed (preferably with rt@rt as the roo
 
 `cd /home/rt/`
 
-Fetch this git repo
+###Fetch this git repo
 
 `git clone https://github.com/cccbauer/MURFI-user-manual.git`
 
