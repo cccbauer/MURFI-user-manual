@@ -103,7 +103,7 @@ make sure you are Wired Connected to rt-fMR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 
-### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our **2vol** for registration of ROI masks:
+### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our '2vol' for registration of ROI masks:
 
 `source feedback.sh sub-test 2vol`
 
@@ -115,7 +115,7 @@ This will pop up MURFI interface ready to receive images from the Scanner like t
 
 ##4) Now you are ready to recieve images from the Scanner/Simmulator
 
-If you are doing a real scann, the ** 2vol ** sequence on the Scanner can be started
+If you are doing a real scann, the **2vol** sequence on the Scanner can be started
 
 If you are doing a simmulation:
 
@@ -123,7 +123,7 @@ open a new terminal:
 
 `cd /home/rt/murfi-rt-PyProject/scripts`
 
-Start the simmulator MURFI singularity image with the ** 2vol ** flag to just send 2 images:
+Start the simmulator MURFI singularity image with the **2vol** flag to just send 2 images:
 
 `/home/rt/singularity-images/murfi2.sif ./servedata.sh 2vol`
 
