@@ -19,7 +19,7 @@ On your Ubuntu laptop where MURFI is installed (preferably with rt@rt as the roo
 
 `cd /home/rt/`
 
-###Fetch this git repo
+### Fetch this git repo
 
 `git clone https://github.com/cccbauer/MURFI-user-manual.git`
 
@@ -31,7 +31,7 @@ Move the rt-murfi-PyProject to your home directory
 
 Ready, no we are able to setu up all necesary files to sart a test run:
 
-##1) Setup a subject folder folder with all relevant information to run the neurofeedback, this needs to happen for each new subject you will run:
+### 1) Setup a subject folder folder with all relevant information to run the neurofeedback, this needs to happen for each new subject you will run:
 
 `source createxml.sh sub-test setup`
 
@@ -57,7 +57,7 @@ under `xml` you will find the script that MUEFI will use to extract the neurofee
 under `xfm` you will receive/find the `session_ref.nii` images that will be used to map the ROI masks form where feedback will be computed to the current session images and Fields of View (FOV)
 more info on this here
 
-##2) Setup al needed connectins to the Scanner and Stimmulus computer:
+### 2) Setup al needed connectins to the Scanner and Stimmulus computer:
 
 From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MURFI
 
@@ -101,7 +101,7 @@ make sure you are Wired Connected to rt-fMR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 
-##3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our 2vol for registration of ROI masks:
+### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our 2vol for registration of ROI masks:
 
 `source feedback.sh sub-test 2vol`
 
@@ -146,14 +146,14 @@ Start the simmulator MURFI singularity image with the flag to just send 2 images
 `sending img of size 2654208`
 `failed to connect`
 
-And on the MURFI interface you will see how the images are being received:`
+And on the MURFI interface you will see how the images are being received:
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol_recived.png?raw=true)
 
 CONTROL-C to quit this MURFI interface if it not automatically quit.
 
 
-##5) Now we are ready to register our MNI ROIs to the subjects space of todays scan
+### 5) Now we are ready to register our MNI ROIs to the subjects space of todays scan
 
 `source feedback.sh sub-test register`
 
@@ -166,7 +166,7 @@ and will pop up fsleyes to check the registration
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/registration.png?raw=true)
 
-##6) Now you are ready to start the first Network Based neurofeedback with images from the Scanner/Simmulator
+### 6) Now you are ready to start the first Network Based neurofeedback with images from the Scanner/Simmulator
 
 The order of this next step is important:
 
@@ -200,45 +200,3 @@ Hit enter after this line on the second termial:
 This will start the feedback scann and you can see how the data is integrated and the feedback display on  the stimulus computer is being updated:
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/rtdmn_run.png?raw=true)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
