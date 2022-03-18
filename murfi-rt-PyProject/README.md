@@ -15,7 +15,7 @@ please make sure you have installed and tested all these before continuing:
 
 ## Initialization
 
-On your Ubuntu laptop where MURFI is installed (preferably with rt@rt as the rootname) folow these steps:
+On your Ubuntu laptop where MURFI is installed (preferably with rt@rt as the rootname, if not some paths have to change on the scripts) folow these steps:
 
 `cd /home/rt/`
 
