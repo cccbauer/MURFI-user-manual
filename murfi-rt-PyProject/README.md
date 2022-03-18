@@ -103,7 +103,7 @@ make sure you are Wired Connected to rt-fMR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 
-### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our ** 2vol ** for registration of ROI masks:
+### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our **2vol** for registration of ROI masks:
 
 `source feedback.sh sub-test 2vol`
 
