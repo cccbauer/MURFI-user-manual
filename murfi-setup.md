@@ -188,10 +188,11 @@ Start the Scanner simmulation
 This should start sending individual volumes to `murfi` which will then show them on the left hand side as axial slices with the region of interest (ROI) from where the feedback will be computed in pink (visual cortex).
 
 
-## Alternative MURFI on Mac OS or Windows
+## Alternative MURFI on Mac OS or Windows using Vagrant
 
-will be updated soon:
-MURFI can also be used through [Vagrant](https://www.vagrantup.com/) and [Virtual Box](https://www.virtualbox.org/) see 
+MURFI can also be used through [Vagrant](https://www.vagrantup.com/) and [Virtual Box](https://www.virtualbox.org/) and follow this  
 [Using Vagrant](Using-Vagrant/README.md#Using Vagrant)
+
+
 
 
