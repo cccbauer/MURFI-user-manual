@@ -7,6 +7,32 @@ MURFI (multivariate and univariate real-time functional imaging) is a software p
 
 rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are used to self-regulate brain (neuro) function. Since it's advent in 1995 significant progress has been made in fMRI neurofeedback techniques. Specifically, the use of rt-fMRI-nf has advanced the understanding of causal involvement of modified brain activity in modified behavior. rt-fMRI-nf was developed in 1995 (Cox et al., 1995), and proof-of concept for rt-fMRI-nf as a potential neurotherapeutic tool for the treatment of brain disorders was demonstrated in 2005 (deCharms et al., 2005). There have since been substantial advancements related to rt-fMRI-nf technology and implementation, with reports of rt-fMRI-nf modification of function in several brain structures. Although rt-fMRI-nf has multiple potential applications as a clinical neuroimaging tool, the research to date has been focused on the use of rt-fMRI-nf to alter brain function and behavior.
 
+
+#MURFI on Siemens scanners
+
+To obtain the individual functional images in real time a proprietary data transfer sequence needs to be added to the respective sequences. The code can be obtained via a [C2P agreement to get the Vsend] patch on the fMRI sequences for real-time image sending. This is usually done by the MR team
+
+You need to send a C2P request to the C2P Team at the Athinoula A. Martinos Center for Biomedical Imaging
+
+ 
+
+MGH/HST Martinos Center for Biomedical Imaging <c2p@nmr.mgh.harvard.edu>
+
+Subject: C2P Agreement request
+
+ 
+
+To request a C2P agreement between the Martinos Center and <your institution> for the following software packages:
+
+ __other__ (rtfMRI vSend sequences)
+
+They will send you a PDF form which must be filled out as a reply to this email (c2p@nmr.mgh.harvard.edu), signed by the appropriate parties. Once received, the request will be processed which may take some time. 
+Alternatively, for non-Siemens scanners or for your own Siemens functors, Murfi will accept data over TCPIP conformant with the following structured information:
+
+https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
+
+
+
 # System Requirements
 
 We recomend a laptop that has characteristics simmilar to this [system76](https://system76.com/laptops/gazelle#specs)
