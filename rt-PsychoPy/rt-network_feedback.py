@@ -445,7 +445,7 @@ for thisTrial in trials:
     subject_key_reset.status = NOT_STARTED
     routineTimer.add(RUN_TIME)
     
-    frame = BaseLineTime/exp_tr    
+    frame = int(BaseLineTime/exp_tr)    
     dmn_feedback = []
     #mpfc_feedback = []
     cen_feedback = []
