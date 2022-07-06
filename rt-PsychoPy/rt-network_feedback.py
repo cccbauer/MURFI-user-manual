@@ -22,7 +22,7 @@ os.chdir(_thisDir)
 
 # Store info about the experiment 
 expName = 'DMN_BallTask'  # from the Builder filename that created this script
-expInfo = {'participant':'','session':'','No_of_ROIs':'2','Level_1_2_3':'1','No_repetitions':'1','Run_Time':'120','Scale_Factor':'5',}#Run_Time in seconds and direction  
+expInfo = {'participant':'test','session':'01','No_of_ROIs':'2','Level_1_2_3':'1','No_repetitions':'1','Run_Time':'120','Scale_Factor':'10',}#Run_Time in seconds and direction  
 BaseLineTime=30 #30 
 exp_tr=1.2
 murfi_FAKE=False
