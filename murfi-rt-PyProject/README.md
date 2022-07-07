@@ -125,7 +125,7 @@ start the Resting State as follows:
 
 this will start sending images as if it ware a resting state:
 
-`1 using niiStem=img/img`
+`1 using niiStem=img/img`\
 `2 using series=1`
 `3 using numImgs=250`
 `4 using firstImg=1`
