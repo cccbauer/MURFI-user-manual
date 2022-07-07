@@ -67,11 +67,12 @@ From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MUR
 
 this will show a message like:
 
- `hello`
-`setup`
-`subject ID:sub-test`
-`/home/rt/murfi-rt-PyProject/subjects/`
-`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`\
+`+ Wellcome to MURFI real-time Neurofeedback`\
+`+ running  setup`\
+`+ subject ID: sub-test`\
+`+ working dir: /home/rt/murfi-rt-PyProject/subjects/`\
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`\
 `checking the presence of scanner and stim computer`
 `PING 192.168.2.1 (192.168.2.1) 56(84) bytes of data.`
 
@@ -103,17 +104,17 @@ make sure you are Wired Connected to rt-fMR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 
-### 3) Now we are ready to acquire a Resting State scam fpr Network extraction.:
+### 3) Now we are ready to acquire the Resting State scan for Network Extraction.:
 
 From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MURFI
 
-`source feedback.sh sub-test resting`
+`source feedback.sh sub-test ses-localizer run-01 resting_state`
 
 This will pop up MURFI interface ready to receive 250 Resting State images from the Scanner like this:
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/resting.png?raw=true)
 
-Now you can start the Resting State scan or alternatively run the Resting State simmulation like this:
+Now you can start the Resting State scan on the scanner or alternatively run the Resting State simmulation like this:
 
 Open a new terminal and from
 
@@ -123,7 +124,7 @@ start the Resting State as follows:
 
 `$ /home/rt/singularity-images/murfi2.sif ./servedata.sh 250vol`
 
-this will start sending images as if it ware a resting state:
+this will start sending images as if it ware a resting state for 250 volumes at 1.2 seconds TR:
 
 `1 using niiStem=img/img`\
 `2 using series=1`\
@@ -143,11 +144,20 @@ this will start sending images as if it ware a resting state:
 `sending img  2`\
 ` etc. . . `\
 
-### 4) Compute the personalized Networks for feedback
+### 4) Compute personalized Networks for Feedback
 
 Once the Resting State has finished, close the MURFI terminal and start the network extraction pipeline as follows:
 
-`source feedback.sh sub-test get_rs_networks`
+`source feedback.sh sub-test ses-localizer run-01 extract_rs_networks`
+
+this will initialize the network extraction peline as follows:
+
+`+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`\
+`compiling resting state run into analysis folder`\
+`calculating resting state networks this will take about 25 minutes.`\
+
+
+
 
 
 
