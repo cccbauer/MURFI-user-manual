@@ -103,17 +103,27 @@ make sure you are Wired Connected to rt-fMR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 
 
+### 3) Now we are ready to acquire a Resting State scam fpr Network extraction.:
+
+From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MURFI
+
+`source feedback.sh sub-test resting`
+
+
+
+
 ### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our '2vol' for registration of ROI masks:
 
 `source feedback.sh sub-test 2vol`
 
-This will pop up MURFI interface ready to receive images from the Scanner like this:
+This will pop up MURFI interface ready to receive 250 Resting State images from the Scanner like this:
 
 
-![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol.png?raw=true)
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/resting.png?raw=true)
 
 
-##4) Now you are ready to recieve images from the Scanner/Simmulator
+
+### 4) Now you are ready to recieve images from the Scanner/Simmulator
 
 If you are doing a real scann, the **2vol** sequence on the Scanner can be started
 
