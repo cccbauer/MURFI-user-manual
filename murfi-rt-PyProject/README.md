@@ -175,6 +175,17 @@ c) Somatomotor Cortex (smc)
 
 `source feedback.sh sub-test ses-localizer run-01 process_roi_masks`
 
+which will display:
+
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`\
+`+ Generating DMN, CEN and SMC masks.`\
+`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`\
+
+and when finished computing the ROI masks for DMN, CEN and SMC display them for QA in fsleyes:
+
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/fsleyes.png?raw=true)
+
+
 
 
 
