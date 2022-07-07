@@ -185,20 +185,20 @@ and when finished computing the ROI masks for DMN, CEN and SMC display them for 
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/fsleyes.png?raw=true)
 
+If everything is succesfull we are ready to start the Neurofeedback Scans
 
+### 3)Acquiring '2vol' for registration of ROI mask to current subject space and field of view
 
+If you ran the resting state network computation and mask creation between scans and are starting a new rea-time Neurofeedback scan or run, repeat setup as described in step (2).
 
+Now we are ready for aquiring the updated field of view
 
+`source feedback.sh sub-test ses-nf1 run-01 2vol`
 
-### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our '2vol' for registration of ROI masks:
-
-`source feedback.sh sub-test 2vol`
-
-This will pop up MURFI interface ready to receive 250 Resting State images from the Scanner like this:
+This will pop up MURFI interface ready to receive 2 volumes from the Scanner like this:
 
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol.png?raw=true)
-
 
 
 ### 4) Now you are ready to recieve images from the Scanner/Simmulator
@@ -243,26 +243,28 @@ And on the MURFI interface you will see how the images are being received:
 CONTROL-C to quit this MURFI interface if it not automatically quit.
 
 
-### 5) Now we are ready to register our MNI ROIs to the subjects space of todays scan
+### 5)  Register MNI ROIs to the subjects space of current scan
 
-`source feedback.sh sub-test register`
+`source feedback.sh sub-test ses-nf1 run-01 register`
 
-This will start the registration of the masks found in 
+This will start the registration of the masks created in stem (found in 
 
 `/home/rt/murfi-rt-PyProject/subjects/sub-test/mask/mni`
 `cen_mni.nii.gz  dmn_mni.nii.gz  smc_mni.nii.gz  stg_mni.nii.gz`
 
 and will pop up fsleyes to check the registration
 
-![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/registration.png?raw=true)
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/fsleyes_subject.png?raw=true)
 
-### 6) Now you are ready to start the first Network Based neurofeedback with images from the Scanner/Simmulator
+Now you are ready to start the first
+
+### 6) Network Based real-time Neurofeedback 
 
 The order of this next step is important:
 
 First: Start the Murfi interface to receive the feedback run:
 
-`source feedback.sh sub-test dmn run-01`
+`source feedback.sh sub-test run-01 dmn`
 
 This will pop-up the interface to receive images similar to the 2vol one seen above with the difference that the lenth is 120 seconds and the regression to compute the beta values on murfi is continuous over the whole run.
 
