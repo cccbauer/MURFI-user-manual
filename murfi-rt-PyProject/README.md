@@ -157,14 +157,23 @@ this will initialize the network extraction peline as follows:
 `calculating resting state networks this will take about 25 minutes`\
 `+ started at: Thu Jul  7 16:21:44 EDT 2022e`\
 
-and pop up FSL MELODIC browser window:
+and pop-up FSL MELODIC browser window:
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/ica.png?raw=true)
 
 
+### 5) Process Resting State ROI masks for Neurofeedback:
+
+Once the MELODIC ICA Resting State Network computation has finished we are ready to get the ROIs for our neurofeedback paradigm. 
+
+In the current setup we will compute:
+
+a) Default Mode Network (dmn)
+b) Central Excecutive Network (cen)
+c) Somatomotor Cortex (smc)
 
 
-
+`source feedback.sh sub-test ses-localizer run-01 process_roi_masks`
 
 
 
