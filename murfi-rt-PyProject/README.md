@@ -154,7 +154,15 @@ this will initialize the network extraction peline as follows:
 
 `+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`\
 `compiling resting state run into analysis folder`\
-`calculating resting state networks this will take about 25 minutes.`\
+`calculating resting state networks this will take about 25 minutes`\
+`+ started at: Thu Jul  7 16:21:44 EDT 2022e`\
+
+and pop up FSL MELODIC browser window:
+
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/ica.png?raw=true)
+
+
+
 
 
 
