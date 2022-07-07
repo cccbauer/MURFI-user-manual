@@ -3,7 +3,7 @@
 This example will create the necesary folders and scripts on the MURFI platform in order to synchronize and send real-time Network Based information to the 
 rt-Psychopy Project to set up a neurofeedback experiment
 
-## Prerequisite 
+## Prerequisites
 
 please make sure you have installed and tested all these before continuing:
 
@@ -142,6 +142,14 @@ this will start sending images as if it ware a resting state:
 `made connection, loading image`\
 `sending img  2`\
 ` etc. . . `\
+
+### 4) Compute the personalized Networks for feedback
+
+Once the Resting State has finished, close the MURFI terminal and start the network extraction pipeline as follows:
+
+`source feedback.sh sub-test get_rs_networks`
+
+
 
 
 ### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our '2vol' for registration of ROI masks:
