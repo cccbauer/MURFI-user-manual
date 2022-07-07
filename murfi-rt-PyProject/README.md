@@ -110,7 +110,7 @@ From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MUR
 
 `source feedback.sh sub-test ses-localizer run-01 resting_state`
 
-This will pop up MURFI interface ready to receive 250 Resting State images from the Scanner like this:
+This will pop-up MURFI interface ready to receive 250 Resting State images from the Scanner like this:
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/resting.png?raw=true)
 
@@ -195,7 +195,7 @@ Now we are ready for aquiring the updated field of view
 
 `source feedback.sh sub-test ses-nf1 run-01 2vol`
 
-This will pop up MURFI interface ready to receive 2 volumes from the Scanner like this:
+This will pop-up MURFI interface ready to receive 2 volumes from the Scanner like this:
 
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol.png?raw=true)
@@ -252,11 +252,11 @@ This will start the registration of the masks created in stem (found in
 `/home/rt/murfi-rt-PyProject/subjects/sub-test/mask/mni`
 `cen_mni.nii.gz  dmn_mni.nii.gz  smc_mni.nii.gz  stg_mni.nii.gz`
 
-and will pop up fsleyes to check the registration
+and will pop-up fsleyes to check the registration
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/fsleyes_subject.png?raw=true)
 
-Now you are ready to start the first
+Now you are ready to start the real-time neurofeecback scans
 
 ### 6) Network Based real-time Neurofeedback 
 
