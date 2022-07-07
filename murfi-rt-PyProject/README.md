@@ -113,6 +113,35 @@ This will pop up MURFI interface ready to receive 250 Resting State images from 
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/resting.png?raw=true)
 
+Now you can start the Resting State scan or alternatively run the Resting State simmulation like this:
+
+Open a new terminal and from
+
+`/home/rt/murfi-rt-PyProject/scripts` 
+
+start the Resting State as follows:
+
+`$ /home/rt/singularity-images/murfi2.sif ./servedata.sh 250vol`
+
+this will start sending images as if it ware a resting state:
+
+`1 using niiStem=img/img`
+`2 using series=1`
+`3 using numImgs=250`
+`4 using firstImg=1`
+`5 using numSlices=68`
+`6 using tr=1200000`
+`7 using port=15000`
+`8 using host=localhost`
+`loading nifti img/img-00001-00001.nii`
+`made connection, loading image`
+`sending img  1`
+`sending info of size 616`
+`sending img of size 2654208`
+`loading nifti img/img-00001-00002.nii`
+`made connection, loading image`
+`sending img  2`
+` etc. . . `
 
 
 ### 3) If everything is succesfull we are ready to start the Scan or Simmulation by acquiring our '2vol' for registration of ROI masks:
