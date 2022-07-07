@@ -109,6 +109,9 @@ From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MUR
 
 `source feedback.sh sub-test resting`
 
+This will pop up MURFI interface ready to receive 250 Resting State images from the Scanner like this:
+
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol.png?raw=true)
 
 
 
@@ -119,7 +122,7 @@ From the `/home/rt/murfi-rt-PyProject/scripts` folder we continue to prepare MUR
 This will pop up MURFI interface ready to receive 250 Resting State images from the Scanner like this:
 
 
-![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/resting.png?raw=true)
+![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/2vol.png?raw=true)
 
 
 
