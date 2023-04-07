@@ -12,22 +12,10 @@ rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are u
 
 To obtain the individual functional images in real time a proprietary data transfer sequence needs to be added to the respective sequences. The code can be obtained via a C2P agreement to get the Vsend patch on the fMRI sequences for real-time image sending. 
 
-Please send a C2P request to the C2P Team at the Athinoula A. Martinos Center for Biomedical Imaging:
+Please initiate the C2P process as follows:
 
-Example email:
+Go to the [Athinoula A. Martinos Clone C2P](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.nmr.mgh.harvard.edu%2Flab%2Fwebdev%2Fclone-c2p&data=05%7C01%7Cc.bauer%40northeastern.edu%7Cea729988697f40593f0808db3776e5ae%7Ca8eec281aaa34daeac9b9a398b9215e7%7C0%7C0%7C638164756028903418%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=xwa9Jq9Xq1EDjhU2n%2B9XrbrhvWrYM9%2BTmTbbeNs9NK0%3D&reserved=0) site and Under "Which C2P are you requesting?", select "Real-time transfer"
 
-Subject: C2P Agreement request
-
-MGH/HST Martinos Center for Biomedical Imaging <c2p@nmr.mgh.harvard.edu>
-
-We write to request a C2P agreement between the Martinos Center and <your institution> for the following software packages:
-
- __other__ (rtfMRI vSend sequences)
- 
-
-They will send you a PDF form which must be filled out as a reply to this email (c2p@nmr.mgh.harvard.edu), signed by the appropriate parties. 
-Once received, the request will be processed which may take some time. 
- 
 
 # MURFI on other scanners
  
