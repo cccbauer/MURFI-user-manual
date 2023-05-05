@@ -1,0 +1,12 @@
+Network Connectivity
+
+For the neurofeedback real-time system to run correctly we need to set up a Transmission Control Protocol/Internet Protocol (TCP/IP) communication protocol
+to interconnect:
+
+A) Siemens Scanner console
+B) MURFI real-time processing computer
+C) Psychopy stimulus presentation computer
+
+in a private computer network.
+
+As disucssed in 
