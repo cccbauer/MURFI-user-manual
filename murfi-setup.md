@@ -28,7 +28,7 @@ https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
 
 We recomend a laptop that has characteristics simmilar to this [system76](https://system76.com/laptops/gazelle#specs)
 
-Or check out this specs to get something symilar
+Or check out this [specs] to get something similar
 
 
 
