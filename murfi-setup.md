@@ -182,9 +182,9 @@ Before running murfi, please download the example data and set environment varia
 `cd ~/`
 
 
-wget https://dl.dropbox.com/s/1vvrz2g4tbzoh5c/murfi_example_data.tgz
+`wget https://dl.dropbox.com/s/1vvrz2g4tbzoh5c/murfi_example_data.tgz
 tar -xzf murfi_example_data.tgz
-rm murfi_example_data.tgz
+rm murfi_example_data.tgz`
 
 export MURFI_SUBJECTS_DIR="$PWD"
 export MURFI_SUBJECT_NAME=murfi_example_data
