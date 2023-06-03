@@ -75,10 +75,13 @@ See [here](https://github.com/gablab/murfi2/tree/master/docker) for details.
 
 ## build the container
 
-
 `cd ~rt/murfi2/docker` 
 
-`sudo docker build --tag murfi2 --file source.Dockerfile ..`
+## pull latest MURFI version
+
+`sudo docker pull ohinds/murfi:latest`
+
+`sudo docker build --tag murfi2 --file Dockerfile ..`
 
 this should yield something along this lines (don't copy):
 
