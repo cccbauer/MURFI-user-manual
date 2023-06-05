@@ -186,8 +186,8 @@ Before running murfi, please download the example data and set environment varia
 tar -xzf murfi_example_data.tgz &&
 rm murfi_example_data.tgz`
 
-export MURFI_SUBJECTS_DIR="$PWD"
-export MURFI_SUBJECT_NAME=murfi_example_data
+`export MURFI_SUBJECTS_DIR="$PWD"`
+`export MURFI_SUBJECT_NAME=murfi_example_data`
 
 ## Running the example using the Singularity container
 
