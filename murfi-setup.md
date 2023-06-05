@@ -80,8 +80,8 @@ See [here](https://github.com/gablab/murfi2/tree/master/docker) for details.
 ## pull latest MURFI version
 
 `sudo docker pull ohinds/murfi:latest`
-
-`sudo docker build --tag murfi2 --file Dockerfile ..`
+`sudo docker save [DOCKER IMAGE ID] -o murfi_new.tar`
+`sudo singularity build murfi_new.sif docker-archive://murfi_new.tar` 
 
 this should yield something along this lines (don't copy):
 
