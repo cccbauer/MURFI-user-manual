@@ -81,6 +81,10 @@ See [here](https://github.com/gablab/murfi2/tree/master/docker) for details.
 
 `sudo docker pull ohinds/murfi:latest`
 
+## compile docker container
+
+`docker build --tag murfi2 --file Dockerfile ..`
+
 `sudo docker save [DOCKER IMAGE ID] -o murfi_new.tar`
 
 `sudo singularity build murfi_new.sif docker-archive://murfi_new.tar` 
