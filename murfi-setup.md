@@ -200,7 +200,9 @@ rm murfi_example_data.tgz`
 Next, you can run murfi. `murfi2.sif` is the path to the Singularity container, which is a file. The `murfi` bit after the path to the container is the command that is executed within the container. Everything after `murfi` is arguments that are passed to `murfi`.
 
 `singularity exec singularity-images/murfi2.sif murfi -f murfi_example_data/scripts/neurofeedback.xml`
+
 or
+
 `singularity run singularity-images/murfi2.sif murfi -f murfi_example_data/scripts/neurofeedback.xml`
 
 This will pop up the `murfi` interface.
