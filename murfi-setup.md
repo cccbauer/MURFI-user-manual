@@ -77,11 +77,11 @@ See [here](https://github.com/gablab/murfi2/tree/master/docker) for details.
 
 `cd ~rt/murfi2/docker` 
 
-## pull latest MURFI version
+## pull and compile the latest MURFI version
 
-`sudo docker pull ohinds/murfi:latest`
+`sudo singularity build -F murfi.sif docker://ohinds/murfi:latest`
 
-## compile docker container
+## alternatively first compile docker container
 
 `docker build --tag murfi2 --file Dockerfile ..`
 
