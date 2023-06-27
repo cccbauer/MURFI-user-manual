@@ -79,7 +79,7 @@ See [here](https://github.com/gablab/murfi2/tree/master/docker) for details.
 
 ## pull and compile the latest MURFI version
 
-`sudo singularity build -F murfi.sif docker://ohinds/murfi:latest`
+`sudo singularity build -F murfi.sif docker://ohinds/murfi:framewise-displacement`
 
 ## alternatively first compile docker container
 
