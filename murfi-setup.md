@@ -39,9 +39,9 @@ Install the latest [long term support (LTS) Ununtu](https://ubuntu.com/download/
 
 In order to use the scripts provided in this manual we recommend the follwing naming conventions when installing:
 
-Your name: **rt**\
-Your computer's name: **rt**\
-Pick a username: **rt**
+Your name: **<NAME>-rt**\
+Your computer's name: **<NAME>-rt**\
+Pick a username: **<NAME>-rt**
 
 Open a terminal and update all:
 
@@ -56,6 +56,15 @@ Here we will go step by step:
 ## Install Git
 
 `sudo apt install git`
+
+
+## get Singularity
+
+get the latest Singularity and closely follow this [installation guide](https://sylabs.io/guides/3.0/user-guide/installation.html)
+
+here is the example used in 2021.12.13
+
+### update all
 
 ## Clone the Murfi Git repository
 
@@ -97,14 +106,6 @@ this should yield something along this lines (don't copy):
 Note: sometimes the docker deamon has to be started manually before buildding the container:
 
 `systemctl start docker`
-
-## get Singularity
-
-get the latest Singularity and closely follow this [installation guide](https://sylabs.io/guides/3.0/user-guide/installation.html)
-
-here is the example used in 2021.12.13
-
-### update all
 
 `sudo apt-get update && sudo apt-get install -y \
     build-essential \
