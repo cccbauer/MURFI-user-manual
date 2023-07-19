@@ -13,6 +13,10 @@ please make sure you have installed and tested all these before continuing:
 
 [rt-PsychoPy setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/rt-PsychoPy/README.md)
 
+[anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
+
+[nypype](https://nipype.readthedocs.io/en/latest/users/install.html)
+
 ## Initialization
 
 On your Ubuntu laptop where MURFI is installed (preferably with rt@rt as the rootname, if not some paths have to change on the scripts) folow these steps:
