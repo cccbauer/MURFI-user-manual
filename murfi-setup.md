@@ -34,8 +34,8 @@ Or check out this [specs] to get something similar
 
 To enable direct TCP/IP communication between the scanner, MURFI software and the presentation Psychopy computer please setup a local network following this diagram and IP adresses:
 
-![LLocal Netwrok](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
 
+![alt text]([https://github.com/cccbauer/MURFI-user-manual/blob/main/png/ica.png](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/localNetwork.png)?raw=true)
 
 
 
