@@ -43,12 +43,6 @@ To enable direct TCP/IP communication between the scanner, MURFI software and th
 Install Ubuntu preferably on a laptop exclusive for delivering rt-fMRI-nf.
 Install the latest [long term support (LTS) Ununtu](https://ubuntu.com/download/desktop)
 
-In order to use the scripts provided in this manual we recommend the follwing naming conventions when installing:
-
-Your name: **<NAME>-rt**\
-Your computer's name: **<NAME>-rt**\
-Pick a username: **<NAME>-rt**
-
 Open a terminal and update all:
 
 `sudo apt-get update`
@@ -63,40 +57,71 @@ Here we will go step by step:
 
 `sudo apt install git`
 
+## Clone the Murfi Git repository
+
+`git clone https://github.com/gablab/murfi2.git`
 
 ## get Singularity
 
 get the latest Singularity and closely follow this [installation guide](https://sylabs.io/guides/3.0/user-guide/installation.html)
 
-here is the example used in 2021.12.13
-
-### update all
-
-## Clone the Murfi Git repository
-
-`git clone https://github.com/gablab/murfi2.git`
-
-## Installing dependencies:
-
-`sudo apt-get install build-essential libace-dev freeglut3-dev libgsl0-dev cmake libxi-dev libxmu-dev libboost-filesystem-dev libnifti-dev nifti-bin qt5-default libqt5*-dev`
-
-## Compile Dockerfile:
-
-See [here](https://github.com/gablab/murfi2/tree/master/docker) for details.
-
-## get Docker
-
-`sudo apt install docker.io`
-
-## build the container
-
-`cd ~rt/murfi2/docker` 
-
 ## pull and compile the latest MURFI version
 
 `sudo singularity build -F murfi.sif docker://ohinds/murfi:framewise-displacement`
 
-## alternatively first compile docker container
+## Downloading a dataset to run the example
+
+Before running murfi, please download the example data and set environment variables.
+
+`cd ~/`
+
+
+`wget https://dl.dropbox.com/s/1vvrz2g4tbzoh5c/murfi_example_data.tgz &&
+tar -xzf murfi_example_data.tgz &&
+rm murfi_example_data.tgz`
+
+`export MURFI_SUBJECTS_DIR="$PWD"`
+`export MURFI_SUBJECT_NAME=murfi_example_data`
+
+## Running the example using the Singularity container
+
+Next, you can run murfi. `murfi2.sif` is the path to the Singularity container, which is a file. The `murfi` bit after the path to the container is the command that is executed within the container. Everything after `murfi` is arguments that are passed to `murfi`.
+
+`singularity exec singularity-images/murfi2.sif murfi -f murfi_example_data/scripts/neurofeedback.xml`
+
+or
+
+`singularity run singularity-images/murfi2.sif murfi -f murfi_example_data/scripts/neurofeedback.xml`
+
+This will pop up the `murfi` interface.
+
+## Scanner Simmulator
+
+To finalize the example we will simmulate a scanner feeding in the individual volumes.
+
+open a new termial
+
+`cd /home/rt/murfi_example_data/scripts`
+
+Start the Scanner simmulation
+
+`~/singularity-images/murfi2.sif ./servedata.sh`
+
+This should start sending individual volumes to `murfi` which will then show them on the left hand side as axial slices with the region of interest (ROI) from where the feedback will be computed in pink (visual cortex).
+
+
+## Alternative MURFI on Mac OS or Windows using Vagrant
+
+MURFI can also be used through [Vagrant](https://www.vagrantup.com/) and [Virtual Box](https://www.virtualbox.org/) and follow this  
+[Using Vagrant](Using-Vagrant/README.md#Using Vagrant)
+
+
+
+
+
+
+
+## Alternatively first compile docker container
 
 `docker build --tag murfi2 --file Dockerfile ..`
 
@@ -188,51 +213,7 @@ Lets convert the Docker image to a Singularity container:
 `mv murfi2.sif ~/singularity-images/`
 
 
-## Downloading a dataset to run the example
 
-Before running murfi, please download the example data and set environment variables.
-
-`cd ~/`
-
-
-`wget https://dl.dropbox.com/s/1vvrz2g4tbzoh5c/murfi_example_data.tgz &&
-tar -xzf murfi_example_data.tgz &&
-rm murfi_example_data.tgz`
-
-`export MURFI_SUBJECTS_DIR="$PWD"`
-`export MURFI_SUBJECT_NAME=murfi_example_data`
-
-## Running the example using the Singularity container
-
-Next, you can run murfi. `murfi2.sif` is the path to the Singularity container, which is a file. The `murfi` bit after the path to the container is the command that is executed within the container. Everything after `murfi` is arguments that are passed to `murfi`.
-
-`singularity exec singularity-images/murfi2.sif murfi -f murfi_example_data/scripts/neurofeedback.xml`
-
-or
-
-`singularity run singularity-images/murfi2.sif murfi -f murfi_example_data/scripts/neurofeedback.xml`
-
-This will pop up the `murfi` interface.
-
-## Scanner Simmulator
-
-To finalize the example we will simmulate a scanner feeding in the individual volumes.
-
-open a new termial
-
-`cd /home/rt/murfi_example_data/scripts`
-
-Start the Scanner simmulation
-
-`~/singularity-images/murfi2.sif ./servedata.sh`
-
-This should start sending individual volumes to `murfi` which will then show them on the left hand side as axial slices with the region of interest (ROI) from where the feedback will be computed in pink (visual cortex).
-
-
-## Alternative MURFI on Mac OS or Windows using Vagrant
-
-MURFI can also be used through [Vagrant](https://www.vagrantup.com/) and [Virtual Box](https://www.virtualbox.org/) and follow this  
-[Using Vagrant](Using-Vagrant/README.md#Using Vagrant)
 
 
 
