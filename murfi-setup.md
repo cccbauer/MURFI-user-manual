@@ -16,16 +16,6 @@ Please initiate the C2P process as follows:
 
 Go to the [Athinoula A. Martinos Clone C2P](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.nmr.mgh.harvard.edu%2Flab%2Fwebdev%2Fclone-c2p&data=05%7C01%7Cc.bauer%40northeastern.edu%7Cea729988697f40593f0808db3776e5ae%7Ca8eec281aaa34daeac9b9a398b9215e7%7C0%7C0%7C638164756028903418%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=xwa9Jq9Xq1EDjhU2n%2B9XrbrhvWrYM9%2BTmTbbeNs9NK0%3D&reserved=0) site and Under "Which C2P are you requesting?", select "Real-time transfer"
 
-# Direct TCP/IP communication 
-
-To enable direct TCP/IP communication between the scanner, MURFI software and the presentation Psychopy computer 
-
-Please initiate the C2P process as follows:
-
-Go to the [Athinoula A. Martinos Clone C2P](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.nmr.mgh.harvard.edu%2Flab%2Fwebdev%2Fclone-c2p&data=05%7C01%7Cc.bauer%40northeastern.edu%7Cea729988697f40593f0808db3776e5ae%7Ca8eec281aaa34daeac9b9a398b9215e7%7C0%7C0%7C638164756028903418%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=xwa9Jq9Xq1EDjhU2n%2B9XrbrhvWrYM9%2BTmTbbeNs9NK0%3D&reserved=0) site and Under "Which C2P are you requesting?", select "Real-time transfer"
-
-
-
 # MURFI on other scanners
  
 Alternatively, for non-Siemens scanners or for your own Siemens functors, Murfi will accept data over TCPIP conformant with the following structured information:
@@ -39,6 +29,14 @@ We recomend a laptop that has characteristics simmilar to this [system76](https:
 
 Or check out this [specs] to get something similar
 <a href="specs.html" title="Specs">Specs</a>
+
+# Direct TCP/IP communication 
+
+To enable direct TCP/IP communication between the scanner, MURFI software and the presentation Psychopy computer please setup a local network following this diagram and IP adresses:
+
+![LLocal Netwrok](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+
+
 
 
 # Prepare laptop with Ubuntu to run MURFI
