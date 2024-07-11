@@ -48,7 +48,7 @@ To enable direct TCP/IP communication between the scanner, MURFI software and th
 # Prepare laptop with Ubuntu to run MURFI
 
 Install Ubuntu preferably on a laptop exclusive for delivering rt-fMRI-nf.
-Install the latest [long term support (LTS) Ununtu](https://ubuntu.com/download/desktop)
+This instalation works besto on Ubuntu 20.4 but you may also try to Install the latest [long term support (LTS) Ununtu](https://ubuntu.com/download/desktop)
 
 Open a terminal and update all:
 
