@@ -41,9 +41,9 @@ Or check out this [specs] to get something similar
 
 To enable direct TCP/IP communication between the scanner, MURFI software and the presentation Psychopy computer please setup a local network following the diagram below with following IP adresses:
 
-Siemens console: 192.168.2.1 \n
-MURFI:           192.168.2.5 \n
-psychopy:        192.168.2.6 \n
+Siemens console: 192.168.2.1 < br / >
+MURFI:           192.168.2.5 < br / >
+psychopy:        192.168.2.6 < br / >
 
 Netmask for all 255.255.255.240
 
