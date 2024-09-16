@@ -18,7 +18,7 @@ Go to the [Athinoula A. Martinos Clone C2P](https://nam12.safelinks.protection.o
 
 Under "Which C2P are you requesting?" select:
 
-"Real-time transfer"
+"Real-time transfer"< br / >
 
 and fill out the Requestor Contact Information 
 
@@ -41,9 +41,9 @@ Or check out this [specs] to get something similar
 
 To enable direct TCP/IP communication between the scanner, MURFI software and the presentation Psychopy computer please setup a local network following the diagram below with following IP adresses:
 
-Siemens console: 192.168.2.1 < br / >
-MURFI:           192.168.2.5 < br / >
-psychopy:        192.168.2.6 < br / >
+Siemens console: 192.168.2.1 <br/>
+MURFI:           192.168.2.5 <br/>
+psychopy:        192.168.2.6 <br/>
 
 Netmask for all 255.255.255.240
 
