@@ -47,6 +47,15 @@ psychopy:        192.168.2.6 <br/>
 
 Netmask for all 255.255.255.240
 
+To install the network you can use the following [switch]([https://system76.com/laptops/gazelle#specs](https://www.amazon.com/NETGEAR-Ethernet-Unmanaged-Lifetime-Protection/dp/B00MPVR50A/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oYrfDmoDQOAa9bOsMN_eFiQ25BbPTyOm8qO36ZX3HT3EG0rPU1I4UwcuFqTAtciFhxP0P52Kam7x9xX8hE8hHIY-hlzbrN0VMovZRzD5hWCE4CWF6sPTASJL3mkU5FvHg3lYpXHUZgQIVm7heeM0x6FxTPoxzQJA_R6QmvDrIWD6OTBvcrWys8MGeCWdamojq-75gStNf_IMyjpIFRqsqO0BQoP-Tko8Flsu-6XFEdkynE8ky9ZAsX6VXYsI5OWsQ0hGMklMsuvaon04WMNiS0Y02SAUtN-D-mOWQR_nCE8.Fg4eyGNwsHibzNptnqfld8I71_A5S3NjYasz1QVr7h0&dib_tag=se&keywords=NETGEAR+ProSAFE+8-Port+Gigabit+Switch+%28GS108%29&qid=1729206042&s=amazon-devices&sr=1-1)) or something similar
+
+When setting it up the network you can place the switch behind the host, unplugge from the Siemens host the ethernet cable coming from MARS/equipment-room (192.168.2.2) and plugg it into the switch. Then get 3 ethernet cables to connect the Siemens host (192.168.2.1), MURFI computer (192.168.2.5), and PsychoPy computer (192.168.2.6) to the switch. Finally, make sure to manually set the IP for the MURFI and PsychoPy computers per diagram below.
+
+ Note, when installing the switch make sure the Siemens host is turned off since it could lock up due to the temporary loss of network connectivity to MARS/equipment-room during the installation process.
+
+ 
+Finally, we keep the switch installed all the time and have not experienced any issues with the Siemens host being able to communicate effectively with MARS (and vice versa). But if you experience any issues that Siemens needs to debug, you may need to temporarily remove the switch such that the Siemens host and MARS/equipment-room connectivity is direct as it is now (we have not had to do this, but depending on the issue this may be needed).
+
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/localNetwork.png?raw=true)
 
