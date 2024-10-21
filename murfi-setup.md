@@ -32,7 +32,7 @@ https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
 
 # MURFI System Requirements
 
-We recomend a laptop that has characteristics simmilar to this [system76](https://system76.com/laptops/gazelle#specs)
+We recomend a laptop that has characteristics simmilar to this [Dell](https://www.dell.com/en-us/shop/dell-computer-laptops/alienware-m18-r2-gaming-laptop/spd/alienware-m18-r2-laptop/#customization-anchor)
 
 Or check out this [specs] to get something similar
 <a href="specs.html" title="Specs">Specs</a>
