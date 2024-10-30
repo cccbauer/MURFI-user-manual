@@ -1,6 +1,6 @@
 
 # FEAT version number
-set fmri(version) 6.0
+set fmri(version) 3.15
 
 # Are we in MELODIC?
 set fmri(inmelodic) 1
@@ -33,10 +33,10 @@ set fmri(sscleanup_yn) 0
 set fmri(outputdir) "OUTPUT"
 
 # TR(s)
-set fmri(tr) 1.200000
+set fmri(tr) 1.200000 
 
 # Total volumes
-set fmri(npts) 250
+set fmri(npts) 248
 
 # Delete volumes
 set fmri(ndelete) 0
@@ -45,7 +45,7 @@ set fmri(ndelete) 0
 set fmri(tagfirst) 1
 
 # Number of first-level analyses
-set fmri(multiple) 2
+set fmri(multiple) 1
 
 # Higher-level input type
 # 1 : Inputs are lower-level FEAT directories
@@ -212,7 +212,7 @@ set fmri(rendertype) 1
 set fmri(bgimage) 1
 
 # Create time series plots
-set fmri(tsplot_yn) 0
+set fmri(tsplot_yn) 1
 
 # Registration to initial structural
 set fmri(reginitial_highres_yn) 0
@@ -245,7 +245,7 @@ set fmri(regstandard_yn) 1
 set fmri(alternateReference_yn) 0
 
 # Standard image
-set fmri(regstandard) "TEMPLATE_LPS_PATH"
+set fmri(regstandard) "/usr/local/fsl/data/standard/MNI152_T1_2mm_brain"
 
 # Search space for registration to standard space
 # 0   : No search
@@ -273,10 +273,7 @@ set fmri(totalVoxels) 277413888
 set fmri(ncopeinputs) 0
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "DATA1"
-
-# 4D AVW data or FEAT directory (2)
-set feat_files(2) "DATA2"
+set feat_files(1) "DATA"
 
 # Add confound EVs text file
 set fmri(confoundevs) 0
@@ -296,7 +293,7 @@ set fmri(dim) 35
 # 1 : Single-session ICA
 # 2 : Multi-session temporal concatenation
 # 3 : Multi-session tensor TICA
-set fmri(icaopt) 2
+set fmri(icaopt) 1
 
 # Threshold IC maps
 set fmri(thresh_yn) 1

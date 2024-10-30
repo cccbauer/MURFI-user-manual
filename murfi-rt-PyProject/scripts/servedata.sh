@@ -17,7 +17,7 @@ if [ "$3" ]; then
    port=$2
 fi
 
-host='localhost'
+host='127.0.0.1'
 if [ "$4" ]; then
    host=$3
 fi
