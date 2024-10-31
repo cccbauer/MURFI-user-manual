@@ -8,16 +8,16 @@
 ## ARGUMENTS ##
 
 # TR (in ms)
-tr=$1
+tr=$4
 
 # MNumber of volumes to serve
-volumes=$2
+volumes=$3
 
 # Path to directory with serve in simulation
-path=$3
+path=$1
 
 # File stem (an integer) indicating the number of the run that should be served
-runstem=$4 
+runstem=$2
 
 if [ "$1" == "--help" ]; then
     echo "$0 [TR(ms)] [volumes] [path_spec]"
@@ -25,7 +25,7 @@ if [ "$1" == "--help" ]; then
 fi
 
 port=15000
-host='127.0.0.1'
+host='127.0.0.1' #localhost
 sleep=1.2
 
 echo $path
@@ -39,6 +39,6 @@ if [ x"$servepath" == x ]; then
 fi
 
 
-servenii ${path}/img $runstem ${volumes} 1 68 $tr $port $host
+servenii ${path}img $runstem ${volumes} 1 72 $tr $port $host
 
 
