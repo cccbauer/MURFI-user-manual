@@ -39,6 +39,6 @@ if [ x"$servepath" == x ]; then
 fi
 
 
-servenii ${path}img $runstem ${volumes} 1 72 $tr $port $host
+servenii ${path}img $runstem ${volumes} 1 68 $tr $port $host
 
 
