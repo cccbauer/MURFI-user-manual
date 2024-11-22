@@ -22,7 +22,7 @@ Under "Which C2P are you requesting?" select:
 
 and fill out the Requestor Contact Information 
 
-Otherwise please fill out [this form] and send to Chang, Yulin <yulin.chang@siemens-healthineers.com>
+Otherwise please fill out [this form](https://github.com/cccbauer/MURFI-user-manual/blob/main/C2P_Request_template_SiemensMR_updated.docx) and send to Chang, Yulin <yulin.chang@siemens-healthineers.com>
 
 
 # MURFI on other scanners
