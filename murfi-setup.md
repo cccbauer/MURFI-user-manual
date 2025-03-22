@@ -31,7 +31,7 @@ and fill out the Requestor Contact Information
 Otherwise please fill out [this form](https://github.com/cccbauer/MURFI-user-manual/blob/main/C2P_Request_template_SiemensMR_updated.docx) and send to Chang, Yulin <yulin.chang@siemens-healthineers.com>
 
 
-# DICOMO option 
+# DICOM option 
 
 Another way to read input images by MURFI is from real-time DICOM export.
 
@@ -51,9 +51,6 @@ https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
 # MURFI System Requirements
 
 We recomend a laptop that has characteristics simmilar to this [Dell](https://www.dell.com/en-us/shop/dell-computer-laptops/alienware-m18-r2-gaming-laptop/spd/alienware-m18-r2-laptop/#customization-anchor)
-
-Or check out this [specs] to get something similar
-<a href="specs.html" title="Specs">Specs</a>
 
 # Direct TCP/IP communication 
 
