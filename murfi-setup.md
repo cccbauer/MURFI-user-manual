@@ -31,6 +31,14 @@ and fill out the Requestor Contact Information
 Otherwise please fill out [this form](https://github.com/cccbauer/MURFI-user-manual/blob/main/C2P_Request_template_SiemensMR_updated.docx) and send to Chang, Yulin <yulin.chang@siemens-healthineers.com>
 
 
+
+
+
+
+
+
+
+
 # DICOM option 
 
 Another way to read input images by MURFI is from real-time DICOM export.
@@ -46,6 +54,13 @@ Please contact [Paul Wighton](https://www.nmr.mgh.harvard.edu/user/8244) at <PWI
 Alternatively, for non-Siemens scanners or for your own Siemens functors, Murfi will accept data over TCP/IP conformant with the following structured information:
 
 https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
+
+
+
+
+
+
+
 
 
 # MURFI System Requirements
@@ -73,6 +88,11 @@ Finally, we keep the switch installed all the time and have not experienced any 
 
 
 ![alt text](https://github.com/cccbauer/MURFI-user-manual/blob/main/png/localNetwork.png?raw=true)
+
+
+
+
+
 
 
 # Prepare laptop with Ubuntu to run MURFI
