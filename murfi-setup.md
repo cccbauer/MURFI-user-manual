@@ -8,6 +8,12 @@ MURFI (multivariate and univariate real-time functional imaging) is a software p
 rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are used to self-regulate brain (neuro) function. Since it's advent in 1995 significant progress has been made in fMRI neurofeedback techniques. Specifically, the use of rt-fMRI-nf has advanced the understanding of causal involvement of modified brain activity in modified behavior. rt-fMRI-nf was developed in 1995 (Cox et al., 1995), and proof-of concept for rt-fMRI-nf as a potential neurotherapeutic tool for the treatment of brain disorders was demonstrated in 2005 (deCharms et al., 2005). There have since been substantial advancements related to rt-fMRI-nf technology and implementation, with reports of rt-fMRI-nf modification of function in several brain structures. Although rt-fMRI-nf has multiple potential applications as a clinical neuroimaging tool, the research to date has been focused on the use of rt-fMRI-nf to alter brain function and behavior.
 
 
+#The latest version of MURFI can pull fMRI images from the scanner in two ways:
+
+# Vsend option
+
+MURFI can read images from vsend considering the Siemens preheader for this option you need to get Vsend on your Scanner.
+
 # Initiate C2P agreement before running MURFI on Siemens scanners
 
 To obtain the individual functional images in real time a proprietary data transfer sequence needs to be added to the respective sequences. The code can be obtained via a C2P agreement to get the Vsend patch on the fMRI sequences for real-time image sending. 
@@ -24,6 +30,12 @@ and fill out the Requestor Contact Information
 
 Otherwise please fill out [this form](https://github.com/cccbauer/MURFI-user-manual/blob/main/C2P_Request_template_SiemensMR_updated.docx) and send to Chang, Yulin <yulin.chang@siemens-healthineers.com>
 
+
+# DICOMO option 
+
+Another way to read input images by MURFI is from real-time DICOM export.
+
+For this method you need to add a **murfi2-bold-dotaddin** 
 
 # MURFI on other scanners
  
