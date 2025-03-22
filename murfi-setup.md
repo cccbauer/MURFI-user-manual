@@ -35,7 +35,11 @@ Otherwise please fill out [this form](https://github.com/cccbauer/MURFI-user-man
 
 Another way to read input images by MURFI is from real-time DICOM export.
 
-For this method you need to add a **murfi2-bold-dotaddin** 
+For this method you need to add the
+
+**murfi2-bold-dotaddin** 
+
+Please contact [Paul Wighton](https://www.nmr.mgh.harvard.edu/user/8244) at <PWIGHTON@mgh.harvard.edu> to get the dotaddin instrucitons and patch.
 
 # MURFI on other scanners
  
