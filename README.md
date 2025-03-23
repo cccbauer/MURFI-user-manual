@@ -10,10 +10,10 @@ rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are u
 
 [MURFI setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/murfi-setup.md)
 
+[Local Network Connectivity setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/network.md)
+
 [Anaconda & FSL setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/fsl-setup.md)
 
 [rt-PsychoPy setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/rt-PsychoPy/README.md)
-
-[Local Network Connectivity setup](https://github.com/cccbauer/MURFI-user-manual/blob/main/network.md)
 
 [Example real-time Network-Based Neurofeedback Run](https://github.com/cccbauer/MURFI-user-manual/blob/main/murfi-rt-PyProject/README.md)
