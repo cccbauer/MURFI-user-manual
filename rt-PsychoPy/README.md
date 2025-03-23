@@ -8,7 +8,7 @@ With this scripts you can set up an experiment where participants will be able t
 
 ### Psychopy Setup
 
-download the lates [Psychopy](https://www.psychopy.org/download.html)
+download the lates Standalone [Psychopy](https://www.psychopy.org/download.html)
 
 ### get the rt-PyProject
 
