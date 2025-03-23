@@ -109,7 +109,9 @@ Open a terminal and update all:
 
 Please refer to [MURFI git repo](https://github.com/gablab/murfi2) for additional installation instructions.
 
-## Running the example using the Singularity container
+## MURFI is currently being used in the following projects:
+
+
 
 
 
