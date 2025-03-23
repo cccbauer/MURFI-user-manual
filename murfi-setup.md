@@ -117,7 +117,7 @@ Please refer to [MURFI git repo](https://github.com/gablab/murfi2) for additiona
 
 [Real-Time-fMRI-Neurofeedback for Borderline Personality Disorder (rt-BPD) Project](https://github.com/cccbauer/rt-BPD)
 
-[mindfulness-based neurofeedback (mbNF) for adults with Borderline Personality Disorder (MIND-BPD)](https://github.com/cccbauer/MIND-BPD)
+[Mindfulness-based neurofeedback (mbNF) for adults with Borderline Personality Disorder (MIND-BPD)](https://github.com/cccbauer/MIND-BPD)
 
 please visit the respective projects for specific use cases.
 
