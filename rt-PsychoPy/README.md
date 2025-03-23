@@ -12,7 +12,7 @@ download the lates [Psychopy](https://www.psychopy.org/download.html)
 
 ### get the rt-PyProject
 
-download or clone this folder to get the scripts
+download or clone the current folder to get the scripts
 
 ### Running a real-time Neurofeedback Simulation
 
