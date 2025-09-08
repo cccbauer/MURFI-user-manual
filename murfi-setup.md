@@ -26,7 +26,7 @@ Alternatively, for non-Siemens scanners or for your own Siemens functors, Murfi 
 
 https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
 
-# Vsend option
+# Vsend option (for older VE siemens versions)
 
 MURFI can read images from vsend considering the Siemens preheader for this option you need to get Vsend on your Scanner.
 
