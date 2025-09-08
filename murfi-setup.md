@@ -10,6 +10,22 @@ rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are u
 
 #The latest version of MURFI can pull fMRI images from the scanner in two ways:
 
+# DICOM option (preferable)
+
+A way to read input images by MURFI is from real-time DICOM export.
+
+For this method you need to add the
+
+**murfi2-bold-dotaddin** 
+
+Please contact [Paul Wighton](https://www.nmr.mgh.harvard.edu/user/8244) at <PWIGHTON@mgh.harvard.edu> to get the dotaddin instrucitons and patch.
+
+# MURFI on other scanners
+ 
+Alternatively, for non-Siemens scanners or for your own Siemens functors, Murfi will accept data over TCP/IP conformant with the following structured information:
+
+https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
+
 # Vsend option
 
 MURFI can read images from vsend considering the Siemens preheader for this option you need to get Vsend on your Scanner.
@@ -33,47 +49,18 @@ Otherwise please fill out [this form](https://github.com/cccbauer/MURFI-user-man
 
 
 
-
-
-
-
-
-
-# DICOM option 
-
-Another way to read input images by MURFI is from real-time DICOM export.
-
-For this method you need to add the
-
-**murfi2-bold-dotaddin** 
-
-Please contact [Paul Wighton](https://www.nmr.mgh.harvard.edu/user/8244) at <PWIGHTON@mgh.harvard.edu> to get the dotaddin instrucitons and patch.
-
-# MURFI on other scanners
- 
-Alternatively, for non-Siemens scanners or for your own Siemens functors, Murfi will accept data over TCP/IP conformant with the following structured information:
-
-https://github.com/gablab/murfi2/blob/master/src/io/RtExternalSenderImageInfo.h
-
-
-
-
-
-
-
-
-
 # MURFI System Requirements
 
 We recomend a laptop that has characteristics simmilar to this [Dell](https://www.dell.com/en-us/shop/dell-computer-laptops/alienware-m18-r2-gaming-laptop/spd/alienware-m18-r2-laptop/#customization-anchor)
-
+This is mainly to process the Masks for feedback in a quick, less than 10 minutes time and you can do localization and neurofeedback at the same time.
 # Direct TCP/IP communication 
 
 To enable direct TCP/IP communication between the scanner, MURFI software and the presentation Psychopy computer please setup a local network following the diagram below with following IP adresses:
 
 Siemens console: 192.168.2.1 <br/>
 MURFI:           192.168.2.5 <br/>
-psychopy:        192.168.2.6 <br/>
+psychopy same machine:        127.0.0.1 <br/>
+psychopy two computers:        192.168.2.6 <br/>
 
 Netmask for all 255.255.255.240
 
