@@ -8,6 +8,11 @@ MURFI (multivariate and univariate real-time functional imaging) is a software p
 rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are used to self-regulate brain (neuro) function. Since it's advent in 1995 significant progress has been made in fMRI neurofeedback techniques. Specifically, the use of rt-fMRI-nf has advanced the understanding of causal involvement of modified brain activity in modified behavior. rt-fMRI-nf was developed in 1995 (Cox et al., 1995), and proof-of concept for rt-fMRI-nf as a potential neurotherapeutic tool for the treatment of brain disorders was demonstrated in 2005 (deCharms et al., 2005). There have since been substantial advancements related to rt-fMRI-nf technology and implementation, with reports of rt-fMRI-nf modification of function in several brain structures. Although rt-fMRI-nf has multiple potential applications as a clinical neuroimaging tool, the research to date has been focused on the use of rt-fMRI-nf to alter brain function and behavior.
 
 
+# MURFI System Requirements
+
+We recomend a laptop that has characteristics simmilar to this [Dell](https://www.dell.com/en-us/shop/dell-computer-laptops/alienware-m18-r2-gaming-laptop/spd/alienware-m18-r2-laptop/#customization-anchor)
+This is mainly to process the Masks for feedback in a quick, less than 10 minutes time and you can do localization and neurofeedback at the same time.
+
 # Prepare laptop with Ubuntu to run MURFI
 
 Install Ubuntu preferably on a laptop exclusive for delivering rt-fMRI-nf.
@@ -76,12 +81,6 @@ and fill out the Requestor Contact Information
 Otherwise please fill out [this form](https://github.com/cccbauer/MURFI-user-manual/blob/main/C2P_Request_template_SiemensMR_updated.docx) and send to Chang, Yulin <yulin.chang@siemens-healthineers.com>
 
 
-
-
-# MURFI System Requirements
-
-We recomend a laptop that has characteristics simmilar to this [Dell](https://www.dell.com/en-us/shop/dell-computer-laptops/alienware-m18-r2-gaming-laptop/spd/alienware-m18-r2-laptop/#customization-anchor)
-This is mainly to process the Masks for feedback in a quick, less than 10 minutes time and you can do localization and neurofeedback at the same time.
 # Direct TCP/IP communication 
 
 To enable direct TCP/IP communication between the scanner, MURFI software and the presentation Psychopy computer please setup a local network following the diagram below with following IP adresses:
