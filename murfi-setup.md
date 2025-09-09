@@ -37,7 +37,7 @@ please visit the respective projects for specific use cases.
 
 
 
-#The latest version of MURFI can pull fMRI images from the scanner in two ways:
+# The latest version of MURFI can pull fMRI images from the scanner in two ways:
 
 # DICOM option (preferable)
 
