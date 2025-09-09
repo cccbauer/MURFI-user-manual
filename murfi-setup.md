@@ -20,7 +20,7 @@ Open a terminal and update all:
 
 # Install MURFI
 
-Please refer to [MURFI git repo](https://github.com/gablab/murfi2) for additional installation instructions.
+Please go to [MURFI git repo](https://github.com/gablab/murfi2) to install the latest MURFI version.
 
 ## MURFI is currently being used in the following projects:
 
