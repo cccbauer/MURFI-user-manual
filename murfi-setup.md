@@ -8,6 +8,35 @@ MURFI (multivariate and univariate real-time functional imaging) is a software p
 rt-fMRI-nf is a type of biofeedback in which real-time online fMRI signals are used to self-regulate brain (neuro) function. Since it's advent in 1995 significant progress has been made in fMRI neurofeedback techniques. Specifically, the use of rt-fMRI-nf has advanced the understanding of causal involvement of modified brain activity in modified behavior. rt-fMRI-nf was developed in 1995 (Cox et al., 1995), and proof-of concept for rt-fMRI-nf as a potential neurotherapeutic tool for the treatment of brain disorders was demonstrated in 2005 (deCharms et al., 2005). There have since been substantial advancements related to rt-fMRI-nf technology and implementation, with reports of rt-fMRI-nf modification of function in several brain structures. Although rt-fMRI-nf has multiple potential applications as a clinical neuroimaging tool, the research to date has been focused on the use of rt-fMRI-nf to alter brain function and behavior.
 
 
+# Prepare laptop with Ubuntu to run MURFI
+
+Install Ubuntu preferably on a laptop exclusive for delivering rt-fMRI-nf.
+
+Install the latest [long term support (LTS) Ununtu](https://ubuntu.com/download/desktop)
+
+Open a terminal and update all:
+
+`sudo apt-get update`
+
+# Install MURFI
+
+Please refer to [MURFI git repo](https://github.com/gablab/murfi2) for additional installation instructions.
+
+## MURFI is currently being used in the following projects:
+
+[Default Mode Network Electrical Fingerprint (dmnelf)](https://github.com/cccbauer/dmnelf)
+
+[Mindful-Brain-Proyect](https://github.com/pab2163/mindful_brain_project)
+
+[Real-Time-fMRI-Neurofeedback for Borderline Personality Disorder (rt-BPD)](https://github.com/cccbauer/rt-BPD)
+
+[Mindfulness-based neurofeedback for adults with Borderline Personality Disorder (MIND-BPD)](https://github.com/cccbauer/MIND-BPD)
+
+please visit the respective projects for specific use cases.
+
+
+
+
 #The latest version of MURFI can pull fMRI images from the scanner in two ways:
 
 # DICOM option (preferable)
@@ -80,33 +109,6 @@ Finally, we keep the switch installed all the time and have not experienced any 
 
 
 
-
-
-# Prepare laptop with Ubuntu to run MURFI
-
-Install Ubuntu preferably on a laptop exclusive for delivering rt-fMRI-nf.
-
-Install the latest [long term support (LTS) Ununtu](https://ubuntu.com/download/desktop)
-
-Open a terminal and update all:
-
-`sudo apt-get update`
-
-# Install MURFI
-
-Please refer to [MURFI git repo](https://github.com/gablab/murfi2) for additional installation instructions.
-
-## MURFI is currently being used in the following projects:
-
-[Default Mode Network Electrical Fingerprint (dmnelf)](https://github.com/cccbauer/dmnelf)
-
-[Mindful-Brain-Proyect](https://github.com/pab2163/mindful_brain_project)
-
-[Real-Time-fMRI-Neurofeedback for Borderline Personality Disorder (rt-BPD)](https://github.com/cccbauer/rt-BPD)
-
-[Mindfulness-based neurofeedback for adults with Borderline Personality Disorder (MIND-BPD)](https://github.com/cccbauer/MIND-BPD)
-
-please visit the respective projects for specific use cases.
 
 
 
